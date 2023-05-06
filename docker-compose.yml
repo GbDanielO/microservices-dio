@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  elasticsearch: #nome do serviço
+    container_name: elastic-dio #apelido do container
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10 #nome completo imagem docker
+    ports: #portas
+      - 9200:9200
+      - 9300:9300
+    environment: #variaveis de ambiente
+      - discovery.type=single-node
+    networks:
+      - rede-microservice-dio
+  
+  redis:
+    container_name: redis-dio
+    image: redis:6.0
+    ports:
+      - 6379:6379
+    networks:
+      - rede-microservice-dio
+
+
+networks: 
+  rede-microservice-dio:
+    driver: bridge   
