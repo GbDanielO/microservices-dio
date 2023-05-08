@@ -6,6 +6,7 @@ Tecnologias e frameworks usados:
 - Spring Web; (Rest)
 - Spring cloud;
 - Spring actuator; (checa status da aplicação)
+- Netflix Eureka Server; (service discovery)
 - Docker;
 - Docker-compose;
 - Elasticsearch;
