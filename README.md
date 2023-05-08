@@ -12,6 +12,10 @@ Tecnologias e frameworks usados:
 - Elasticsearch;
 - Redis;
 
+#Arquitetura
+
+(https://github.com/GbDanielO/microservices-dio/blob/main/Arquitetura.PNG.jpg)
+
 A arquitetura tem um Service-Discovery que serve para registro e balanceamento dos microserviços.
 (O service-discovery tem 1 ponto negativo que é uma chamada extra sempre que houver a necessidade
 de comunicação entre serviços)
