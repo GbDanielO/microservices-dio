@@ -19,3 +19,23 @@ Tecnologias e frameworks usados:
 A arquitetura tem um Service-Discovery que serve para registro e balanceamento dos microserviços.
 (O service-discovery tem 1 ponto negativo que é uma chamada extra sempre que houver a necessidade
 de comunicação entre serviços)
+
+#Documentações:
+Config Server: (https://docs.spring.io/spring-cloud-config/docs/3.1.7/reference/html/#_spring_cloud_config_server)
+Service Discovery Eureka: (https://cloud.spring.io/spring-cloud-netflix/reference/html/)
+Elasticsearch: (https://docs.spring.io/spring-data/elasticsearch/docs/4.4.0/reference/html/#reference)
+Elasticsearch with docker: (https://www.elastic.co/guide/en/elasticsearch/reference/7.17/docker.html#docker-cli-run-dev-mode)
+Redis: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:connectors:lettuce)
+Redis template: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:template)
+
+A maioria dos usuários provavelmente usará RedisTemplate e seu pacote correspondente, org.springframework.data.redis.core. 
+O template é, de fato, a classe central do módulo Redis, devido ao seu rico conjunto de recursos. 
+O modelo oferece uma abstração de alto nível para interações do Redis. 
+Enquanto RedisConnection oferece métodos de baixo nível que aceitam e retornam valores binários (arrays de bytes), 
+o modelo cuida da serialização e do gerenciamento de conexões, liberando o usuário de lidar com tais detalhes.
+ 
+Além disso, o modelo fornece exibições de operações (seguindo o agrupamento da referência de comando Redis) 
+que oferecem interfaces ricas e genéricas para trabalhar com um determinado tipo ou determinada chave 
+(por meio das interfaces KeyBound).
+
+
