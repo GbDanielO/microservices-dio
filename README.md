@@ -12,7 +12,7 @@ Tecnologias e frameworks usados:
 - Elasticsearch;
 - Redis;
 
-#Arquitetura
+### Arquitetura
 
 ![arquitetura](https://github.com/GbDanielO/microservices-dio/blob/main/Arquitetura.PNG.jpg)
 
@@ -20,7 +20,7 @@ A arquitetura tem um Service-Discovery que serve para registro e balanceamento d
 (O service-discovery tem 1 ponto negativo que é uma chamada extra sempre que houver a necessidade
 de comunicação entre serviços)
 
-#Documentações:
+### Documentações:
 Config Server: (https://docs.spring.io/spring-cloud-config/docs/3.1.7/reference/html/#_spring_cloud_config_server)
 Service Discovery Eureka: (https://cloud.spring.io/spring-cloud-netflix/reference/html/)
 Elasticsearch: (https://docs.spring.io/spring-data/elasticsearch/docs/4.4.0/reference/html/#reference)
