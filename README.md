@@ -21,12 +21,12 @@ A arquitetura tem um Service-Discovery que serve para registro e balanceamento d
 de comunicação entre serviços)
 
 ### Documentações:
-Config Server: (https://docs.spring.io/spring-cloud-config/docs/3.1.7/reference/html/#_spring_cloud_config_server)
-Service Discovery Eureka: (https://cloud.spring.io/spring-cloud-netflix/reference/html/)
-Elasticsearch: (https://docs.spring.io/spring-data/elasticsearch/docs/4.4.0/reference/html/#reference)
-Elasticsearch with docker: (https://www.elastic.co/guide/en/elasticsearch/reference/7.17/docker.html#docker-cli-run-dev-mode)
-Redis: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:connectors:lettuce)
-Redis template: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:template)
+Config Server: (https://docs.spring.io/spring-cloud-config/docs/3.1.7/reference/html/#_spring_cloud_config_server)<br />
+Service Discovery Eureka: (https://cloud.spring.io/spring-cloud-netflix/reference/html/)<br />
+Elasticsearch: (https://docs.spring.io/spring-data/elasticsearch/docs/4.4.0/reference/html/#reference)<br />
+Elasticsearch with docker: (https://www.elastic.co/guide/en/elasticsearch/reference/7.17/docker.html#docker-cli-run-dev-mode)<br />
+Redis: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:connectors:lettuce)<br />
+Redis template: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:template)<br />
 
 A maioria dos usuários provavelmente usará RedisTemplate e seu pacote correspondente, org.springframework.data.redis.core. 
 O template é, de fato, a classe central do módulo Redis, devido ao seu rico conjunto de recursos. 
