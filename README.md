@@ -25,6 +25,7 @@ Config Server: (https://docs.spring.io/spring-cloud-config/docs/3.1.7/reference/
 Service Discovery Eureka: (https://cloud.spring.io/spring-cloud-netflix/reference/html/)<br />
 Elasticsearch: (https://docs.spring.io/spring-data/elasticsearch/docs/4.4.0/reference/html/#reference)<br />
 Elasticsearch with docker: (https://www.elastic.co/guide/en/elasticsearch/reference/7.17/docker.html#docker-cli-run-dev-mode)<br />
+Redis: Versão do projeto: 2.7.0 (ná época era a "current")
 Redis: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:connectors:lettuce)<br />
 Redis template: (https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:template)<br />
 
